@@ -1,0 +1,20 @@
+.cLd {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 0.1875rem dashed black;
+  animation: rotate 1s infinite linear;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

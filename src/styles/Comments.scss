@@ -1,0 +1,17 @@
+.comments {
+  &__container {
+    display: flex;
+    padding: 15px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 800px;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+  }
+}

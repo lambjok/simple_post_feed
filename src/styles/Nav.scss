@@ -1,0 +1,35 @@
+nav {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  padding: 0 15px;
+  align-items: center;
+  border: 1px solid black;
+
+  ul {
+    margin-left: auto;
+
+    li {
+      display: inline;
+
+      
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        padding: 5px 10px;
+
+        border: 1px solid black;
+
+        &:current {
+          border: 3px solid hsl(0, 0%, 50%); 
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
